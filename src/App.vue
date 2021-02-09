@@ -3,7 +3,7 @@
 		<!-- HEADER STARTS -->
 		<header class="flex items-center border-b border-gray-600">
 			<!-- a router link is similar to an anchor tag -->
-			<router-link to="#" class="p-4 mr-3 text-green-500 text-2xl">
+			<router-link to="/profile" class="p-4 mr-3 text-green-500 text-2xl">
 				<i class="fas fa-user"></i>
 			</router-link>
 			<h1 class="text-white font-black text-xl">{{ $route.name }}</h1>
@@ -19,8 +19,9 @@
 		<!-- FOOTER STARTS -->
 		<footer class="grid grid-cols-4 border-t border-gray-600">
 			<router-link 
-				v-for="(route, i) in routes" :key="i"
-				to="route.path"
+				v-for="(route, i) in routes"
+				:key="i"
+				:to="route.path"
 				class="p-4 text-center text-2xl text-gray-300">
 				<i :class="route.iconClass"></i>
 			</router-link>
@@ -38,7 +39,7 @@ export default {
 		const router = useRouter();
 
 		onBeforeMount(() => {
-			routes.value = router.options.routes.filter(r => r.mainMenu)
+			routes.value = router.options.routes.filter(r => r.mainMenu);
 		});
 
 		return {

@@ -1,9 +1,22 @@
 <template>
 	<div class="home">
-		<div class="text-white">Home</div>
+		<Tweet v-for="tweet in tweets" :key="tweet.id" :tweet="tweet" />
 	</div>
 </template>
 
 <script>
-export default {}
+import { ref } from 'vue';
+import Tweet from '../components/Tweet'
+import vweets from '../vweets';
+
+export default {
+	setup () {
+		const tweets = ref(vweets);
+
+		return{
+			tweets,
+			Tweet
+		}
+	}
+}
 </script>
