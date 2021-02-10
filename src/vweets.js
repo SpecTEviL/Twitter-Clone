@@ -2,7 +2,7 @@ export default [
     {
 		id: "0",
 		author: {
-			profile_img_url: "https://github.com/SpecTEviL/Twitter-Clone/blob/main/src/images/vishal.svg",
+			profile_img_url: "https://raw.githubusercontent.com/SpecTEviL/Twitter-Clone/main/src/images/vishal.svg",
 			display_name: "Vishal Patil",
 			username: "@vishalpatil1810"
 		},
@@ -37,7 +37,7 @@ export default [
 	{
 		id: "1",
 		author: {
-			profile_img_url: "https://github.com/SpecTEviL/Twitter-Clone/blob/main/src/images/purwank.svg",
+			profile_img_url: "https://raw.githubusercontent.com/SpecTEviL/Twitter-Clone/main/src/images/purwank.svg",
 			display_name: "Purvank",
 			username: "@yesimmad"
 		},
@@ -67,7 +67,7 @@ export default [
 	{
 		id: "2",
 		author: {
-			profile_img_url: "https://github.com/SpecTEviL/Twitter-Clone/blob/main/src/images/aniket.svg",
+			profile_img_url: "https://raw.githubusercontent.com/SpecTEviL/Twitter-Clone/main/src/images/aniket.svg",
 			display_name: "Aniket",
 			username: "@YoYoRapper"
 		},
@@ -103,13 +103,13 @@ export default [
 	{
 		id: "3",
 		author: {
-			profile_img_url: "https://github.com/SpecTEviL/Twitter-Clone/blob/main/src/images/ashutosh.svg",
+			profile_img_url: "https://raw.githubusercontent.com/SpecTEviL/Twitter-Clone/main/src/images/ashutosh.svg",
 			display_name: "Ashutosh",
 			username: "@mastAadmi"
 		},
 		body: 'I love investing rather wasting :|',
 		image: {
-			url: "https://pbs.twimg.com/media/Eq1stQeXYAITGi_?format=jpg&name=large",
+			url: "https://raw.githubusercontent.com/SpecTEviL/Twitter-Clone/main/src/images/investing.jpg",
 			alt: "Image"
 		},
 		stats: {
