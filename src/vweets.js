@@ -2,7 +2,7 @@ export default [
     {
 		id: "0",
 		author: {
-			profile_img_url: "https://pbs.twimg.com/profile_images/1338824835078778880/3rFQF35B_400x400.jpg",
+			profile_img_url: "https://github.com/SpecTEviL/Twitter-Clone/blob/main/src/images/vishal.png",
 			display_name: "Vishal Patil",
 			username: "vishalpatil1810"
 		},
@@ -37,7 +37,7 @@ export default [
 	{
 		id: "1",
 		author: {
-			profile_img_url: "https://pbs.twimg.com/profile_images/856983737426423809/6jebtwP-_400x400.jpg",
+			profile_img_url: "https://github.com/SpecTEviL/Twitter-Clone/blob/main/src/images/purwank.png",
 			display_name: "Purvank",
 			username: "yesimmad"
 		},
@@ -64,7 +64,7 @@ export default [
 	{
 		id: "2",
 		author: {
-			profile_img_url: "https://pbs.twimg.com/profile_images/595659104384905218/bOtXKmdP_400x400.jpg",
+			profile_img_url: "https://github.com/SpecTEviL/Twitter-Clone/blob/main/src/images/aniket.png",
 			display_name: "Aniket",
 			username: "YoYoRapper"
 		},
@@ -100,7 +100,7 @@ export default [
 	{
 		id: "3",
 		author: {
-			profile_img_url: "https://pbs.twimg.com/profile_images/1338824835078778880/3rFQF35B_400x400.jpg",
+			profile_img_url: "https://github.com/SpecTEviL/Twitter-Clone/blob/main/src/images/ashutosh.png",
 			display_name: "Ashutosh",
 			username: "mastAadmi"
 		},
