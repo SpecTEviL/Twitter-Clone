@@ -2,7 +2,7 @@ export default [
     {
 		id: "0",
 		author: {
-			profile_img_url: "https://github.com/SpecTEviL/Twitter-Clone/blob/main/src/images/vishal.png",
+			profile_img_url: "https://github.com/SpecTEviL/ToonNinja/blob/main/Mobile%20View%20-%20Nav%20Menu%20Closed.png",
 			display_name: "Vishal Patil",
 			username: "vishalpatil1810"
 		},
@@ -64,7 +64,7 @@ export default [
 	{
 		id: "2",
 		author: {
-			profile_img_url: "https://github.com/SpecTEviL/Twitter-Clone/blob/main/src/images/aniket.png",
+			profile_img_url: "https://github.com/SpecTEviL/Twitter-Clone/blob/main/src/images/aniket.jpg",
 			display_name: "Aniket",
 			username: "YoYoRapper"
 		},
